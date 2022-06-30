@@ -1,0 +1,25 @@
+version: "3.5"
+
+services:
+  dlf_docusaurus:
+    container_name: dlf_docs
+    image: dlf_node
+  dlf-live-reloader:
+    image: apogiatzis/livereloading
+    container_name: dlf_livereloader
+    privileged: true
+    environment:
+      - RELOAD_DELAY=1.5
+      - RELOAD_CONTAINER=dlf_docs
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - ./docs:/app/docs
+      - ./website/blog:/app/website/blog
+      - ./website/core:/app/website/core
+      - ./website/i18n:/app/website/i18n
+      - ./website/pages:/app/website/pages
+      - ./website/static:/app/website/static
+      - ./website/sidebars.json:/app/website/sidebars.json
+      - ./website/siteConfig.js:/app/website/siteConfig.js
+      
+
