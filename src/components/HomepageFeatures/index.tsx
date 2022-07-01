@@ -10,34 +10,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Łatwy w użyciu',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Smoki Nightwood',
+    Svg: require('@site/static/img/green_dragon_logo.svg').default,
     description: (
       <>
-        Docusaurus został zaprojektowany od podstaw tak, aby można go było
-        łatwo zainstalować i używać w celu szybkiego uruchomienia witryny.
+        Witaj w projekcie open-source! Chcemy wspólnymi siłami stworzyć grę
+        przeglądarkową w stylu Smoków Nightwood! Dołącz do nas, aby razem
+        odtworzyć nową odsłonę hodowli!
       </>
     ),
   },
   {
-    title: 'Skup się na tym, co ważne',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Bądź na bieżąco!',
+    Svg: require('@site/static/img/Blog-DLF-Green.svg').default,
     description: (
       <>
-        Dzięki programowi Docusaurus możesz skupić się na swoich dokumentach,
-        a my zajmiemy się innymi zadaniami. Śmiało przenieś swoje dokumenty
-        do katalogu <code>docs</code>.
+        Zaglądaj na naszego bloga/mini newsletter i przeglądaj najnowsze
+        informacje o postępach w tworzeniu naszego projektu!
       </>
     ),
   },
   {
-    title: 'Oparty na React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Jesteśmy na Discord!',
+    Svg: require('@site/static/img/Discord-Logo-Green.svg').default,
     description: (
       <>
-        Rozszerzaj lub personalizuj wygląd swojej strony internetowej za pomocą
-        frameworku React. Docusaurus pozwala na rozbudowywanie strony przy
-        użyciu tych samych komponentów takich jak nagłówki czy stopki.
+        Zajrzyj do naszej społeczności! Dziel się opiniami, proponuj zmiany i
+        współtwórz nasz projekt razem z nami! Serdecznie zapraszamy szczególnie
+        osoby ze starej społeczności Smoków Nightwood!
       </>
     ),
   },
