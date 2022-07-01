@@ -2,6 +2,12 @@
 
 This documentation website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+The resulting page is available at: [https://dragon-light-forest.github.io/documentation/](https://dragon-light-forest.github.io/documentation/)
+
+**Continues Delivery:** Each change that appears on branch main will be automatically deployed, and the changes will be visible on the website after about 5 minutes.
+
+**Continues Integration:** This is not required with a simple structure in this repository. Moreover, it would be a waste, we only have 2,000 Actions minutes / month on the free github plan.
+
 ## Recommended Installation (Docker Container With Live Reload)
 
 ```
@@ -56,7 +62,7 @@ node_modules/trim
     node_modules/remark-mdx
 ```
 
-**WARNING**: The current version of docusaurus has internal vulnerabilities that cannot be fixed by yourself, and must be done by the package owner/creator. For this project, however, it does not matter, as the code is designed to generate a static documentation page. It is therefore recommended to disable the audit for npm by:
+**WARNING:** The current version of docusaurus has internal vulnerabilities that cannot be fixed by yourself, and must be done by the package owner/creator. For this project, however, it does not matter, as the code is designed to generate a static documentation page. It is therefore recommended to disable the audit for npm by:
 
 ```
 $ npm set audit false
