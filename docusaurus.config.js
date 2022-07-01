@@ -34,12 +34,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Dragon-Light-Forest/Documentation/tree/main/',
+            'https://github.com/Dragon-Light-Forest/Documentation/tree/develop/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/Dragon-Light-Forest/Documentation/tree/main/',
+            'https://github.com/Dragon-Light-Forest/Documentation/tree/develop/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
