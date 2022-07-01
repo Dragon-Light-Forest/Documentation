@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Dragon-Light-Forest.github.io/documentation/blog</id>
+    <title>Dragon Light Forest Blog</title>
+    <updated>2022-06-27T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Dragon-Light-Forest.github.io/documentation/blog"/>
+    <subtitle>Dragon Light Forest Blog</subtitle>
+    <icon>https://Dragon-Light-Forest.github.io/documentation/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://Dragon-Light-Forest.github.io/documentation/blog/welcome"/>
+        <updated>2022-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Witamy na stronie poświęconej współtworzeniu projektu inspirowanego grą przeglądarkową Smoki Nightwood!]]></summary>
+        <content type="html"><![CDATA[<p align="center"><img loading="lazy" src="https://t4.ftcdn.net/jpg/04/96/29/23/360_F_496292332_h6zMcCMbLLbqYGHetxlHIRjwDzjwSnQW.jpg" alt="Sublime's custom image" class="img_ev3q"></p><p>Witamy na stronie poświęconej współtworzeniu projektu inspirowanego grą przeglądarkową <strong>Smoki Nightwood</strong>!</p><p>Strona oparta jest na <strong>Docusaurus</strong> i służyć będzie nam jako mały <em>newsletter</em> i baza przechowująca <em>dokumentację projektu</em>.</p><p>Serdecznie zapraszamy na naszego <strong>discorda</strong>, aby wspólnie napędzać ten wspaniały projekt oraz dzielić się opiniami w <em>naszej społeczności</em>!</p><p>Link z zaproszeniem: <a href="https://discord.gg/e46HQ7CXyT" target="_blank" rel="noopener noreferrer">https://discord.gg/e46HQ7CXyT</a></p>]]></content>
+        <author>
+            <name>Grassman</name>
+            <uri>https://github.com/Grala96</uri>
+        </author>
+        <category label="discord" term="discord"/>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
